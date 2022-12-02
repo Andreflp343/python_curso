@@ -1,0 +1,16 @@
+string = input('Digite um nome: ')
+
+i = 0
+
+while i < len(string):
+    letra = string[i]
+
+    if letra == " ":
+        break
+
+    print(letra)
+    i += 1
+else:
+    print('Não encontrei nenhum espaço')
+
+print('Encontrei um espaço')
