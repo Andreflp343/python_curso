@@ -1,10 +1,8 @@
 import os
 
-
 palavra_secreta = "Batata"
 letras_acertadas = ''
 tentativas = 0
-
 
 while True:
     tentativas += 1
@@ -25,9 +23,7 @@ while True:
             palavra_formada += '*'
     print(palavra_formada)
     if palavra_formada == palavra_secreta:
-       os.system('cls')
-       print(f'A palavra secreta era: {palavra_secreta}')
-       print(f'Parabéns, você venceu o jogo com {tentativas} tentativas')
-       break
-    
-
+        os.system('cls')
+        print(f'A palavra secreta era: {palavra_secreta}')
+        print(f'Parabéns, você venceu o jogo com {tentativas} tentativas')
+        break
